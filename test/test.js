@@ -1,7 +1,7 @@
 var assert = require('assert'),
     request = require('request'),
     maiThaiKitchen = require("../app.js"),
-    base_url = "http://localhost:3030/"
+    base_url = "https://limitless-escarpment-64461.herokuapp.com/"
 
 const { expect } = require('chai');
 

@@ -3,7 +3,7 @@ describe('Home page Test', function () {
 
   before (async function () {
     page = await browser.newPage();
-    await page.goto('http://localhost:3030');
+    await page.goto('https://limitless-escarpment-64461.herokuapp.com');
   });
 
   after (async function () {
@@ -38,7 +38,7 @@ describe('authenticRecipe Header Test', function () {
 
   before (async function () {
     page = await browser.newPage();
-    await page.goto('http://localhost:3030/authenticRecipe');
+    await page.goto('https://limitless-escarpment-64461.herokuapp.com/authenticRecipe');
   });
 
   after (async function () {
@@ -73,7 +73,7 @@ describe('fusionCuisine Header Test', function () {
 
   before (async function () {
     page = await browser.newPage();
-    await page.goto('http://localhost:3030/fusionCuisine');
+    await page.goto('https://limitless-escarpment-64461.herokuapp.com/fusionCuisine');
   });
 
   after (async function () {
