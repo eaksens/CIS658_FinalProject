@@ -2,7 +2,7 @@ $(document).ready(function get(){
       // DO POST
       $.ajax({
             type : "GET",
-            url : "http://localhost:3030/ajaxCall",
+            url : "https://limitless-escarpment-64461.herokuapp.com/ajaxCall",
             data : JSON.stringify(formData),
             dataType : 'json'
           })
