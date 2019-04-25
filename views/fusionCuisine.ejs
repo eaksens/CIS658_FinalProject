@@ -1,0 +1,79 @@
+<%- include("partials/header"); -%>
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Thai-Chinese Beef Stired</h1>
+        <p>How is this dish fusion? Just simple beef stir-fry. I put this into fusion category because...? You guess? </br>
+           Answer is "Fish Sauce" as fishSauce != soySauce, so this dish != Chinese dish. Thus, it is fusion, if that makes sense LOL 🤣
+        </p>
+        <button class="btn btn-info" onclick="printFunction()">Print Recipe</button>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <h2>Let's Prep</h2>
+      <video width="400" controls>
+        <source src="/images/beefStirFry/Intro.mpeg" type="video/mpeg">
+
+      </video>
+    </div>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Marinate Ingredients</h2>
+          <p>How to tenderize the beef</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">✨✨Oyster Sauce ซอสหอยนางรม ("Hoi-Nagn-Rom-Sauce") <br/>
+              aka Asian tenderizer!
+              <div class="container-fluid">
+              <img class="img-thumbnail" src="images/beefStirFry/oysterSauce.PNG" alt="oysterSauce">
+              </div>
+            </li>
+
+            <li class="list-group-item">✨✨Fish Sauce น้ำปลา ("Nam-Pla") aka <br/>
+              📢 Caution: it smells very fishy, but it tastes AMAZING!💕
+              <div class="container-fluid">
+                  <img class="img-thumbnail" src="images/beefStirFry/fishSauce.PNG" alt="oysterSauce">
+              </div>
+            </li>
+
+            <li class="list-group-item">✨✨Garlic Powder
+            </li>
+
+            <li class="list-group-item">✨✨Soy sauce (optional)
+            </li>
+
+            <li class="list-group-item">✨✨Egg (optional)
+            </li>
+
+          </ul>
+        </div>
+
+
+        <div class="col-md-6">
+          <h2>Meat & Vegetables</h2>
+          <p>Free style, you can put any kind of Vegetables or meat that you like but below is what I used</p>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">✨Beef</li>
+          <li class="list-group-item">✨Minced Garlic</li>
+          <li class="list-group-item">✨Onion (Preferred sweet onion)</li>
+          <li class="list-group-item">✨Thai fresh green chilli</li>
+          <li class="list-group-item">✨Bell Pepper</li>
+          <li class="list-group-item">✨Cirantro</li>
+          <li class="list-group-item">✨Carrot</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+</main>
+<script>
+function printFunction() {
+  window.print();
+}
+</script>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JQuery Ajax</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+  <body>
+      <h3>Ajax load blog post</h3>
+      <div class="container-fluid">
+        <button id="getButton" class="btn btn-primary" onclick ="get()"> Load Posts</button>
+        <pre id="getResponse"></pre>
+      </div>
+<script>
+function get(){
+      $.ajax({
+            type : "GET",
+            url : "http://localhost:3030/ajaxCalljson",
+            dataType : 'json'
+          })
+        .done(function(posts){
+          console.log('GET response:', JSON.stringify(posts,"",2));
+          $('#getResponse').html(JSON.stringify(posts,"",2));
+        })
+        .fail(function(jqXHR, textStatus, err){
+          console.log('AJAX error response: ',textStatus);
+        });
+}
+</script>
+
+  </body>
+</html>

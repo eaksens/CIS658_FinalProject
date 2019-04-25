@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mai_Thai Kitchen</title>
+
+  <!-- favicon: to create icon webPage title-->
+  <!--<link rel="icon" href="favicon.ico">-->
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Merriweather|Montserrat|Sacramento|Ubuntu" rel="stylesheet">
+
+  <!--Sign In Template example-->
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+  <!-- CSS style: Bootstrap first, then customer style -->
+  <!-- Important Note to override the Bootstraps style by custom style (styles1.css file)
+  Need to put custom style link to the line AFTER the Bootstrap style -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles1.css">
+
+  <!-- Font Awesome: to insert the icon on the button -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand">Mai_Thai Kitchen</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburgerBar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="hamburgerBar">
+      <ul class="navbar-nav ml-auto">
+        <!--ml -margin left-->
+        <il class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </il>
+        <il class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recipes</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/authenticRecipe">Authentic Thai</a>
+            <a class="dropdown-item" href="/fusionCuisine">Fusion Cuisine</a>
+            <a class="dropdown-item" href="/maiThaiSpecial">Mai_Thai Special</a>
+          </div>
+        </il>
+        <il class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </il>
+        <il class="nav-item">
+          <a class="nav-link" href="/about">About Me</a>
+        </il>
+      </ul>
+    </div>
+  </nav>
+</head>
+<body>

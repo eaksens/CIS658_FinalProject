@@ -1,0 +1,124 @@
+<%- include("partials/header"); -%>
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Tom Kha Gai</h1>
+        <p>Starting off with Tom Kha Gai. I put this as my first dish on my authentic section since I am Thai. So of course, I can proudly say that I made Thai food authentically with my Thai tongue LOL 😂 This classic chicken and coconut soup gets its rich and dynamic flavor from quintessential Thai ingredients: coconut milk, lemongrass, Galangal, lime leaves, fish sauce, Thai Chilli, lime juice, and cilantro.
+          </br> Just Fyi, Gai means Chicken in Thai, so basically Chicken is our meat of this dish! Yay!!
+        </p>
+        <button class="btn btn-info" onclick="printFunction()">Print Recipe</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>3-MUST-HAVE</h2>
+          <p>First three are the main and must definitely have to get test of real Thai Tom Kha</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">✨✨Galangal ข่า (pronounce "Kha"). <br/>
+              This word is part of this dish name! So, obviously, this ingredient is a MUST ✔ <br/>
+              👉Important Note: Cannot be substituted by Ginger! Stop right there, I know what you are thinking 😊
+              <img class="img-thumbnail" src="images/tomKhaIngredients/Galangal.PNG" alt="galangal">
+            </li>
+
+            <li class="list-group-item">✨✨Lime Leaves ใบมะกรูด ("Bai-Ma-Good"). <br/>
+              This is a Herb, just try to squeeze it with your hand, smell AMAZING!💕
+              <img class="img-thumbnail" src="images/tomKhaIngredients/limeLeaves.PNG" alt="limeLeaves">
+            </li>
+
+            <li class="list-group-item">✨✨Lemongrass ตะไคร้ ("Ta-Krai"). <br/>
+              Another MUST have ingredient
+              <img class="img-thumbnail" src="images/tomKhaIngredients/lemongrass.PNG" alt="lemongrass">
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Tasty Broth</h2>
+          <p> </p>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">✨ Coconut Milk. Below is recommanded brand, but any brand would work just fine.
+            <img class="img-thumbnail" src="images/tomKhaIngredients/coconutMilk.PNG" alt="coconutMilk">
+          </li>
+          <li class="list-group-item">✨✨ Fish Sauce. Below is recommanded brand, but any brand would work just fine.</br>
+            👉Important Note: Cannot be substituted by Soy Sauce, this is Thai food, not Chinese. Thank you😊
+            <img class="img-thumbnail" src="images/tomKhaIngredients/fishSauce.PNG" alt="fishSauce">
+          </li>
+          <li class="list-group-item">✨ Lime Juice</li>
+          <li class="list-group-item">✨ Chicken Broth. <br/>
+            You can store-bought this, but it would be way better if you made this by yourself before.
+          </li>
+          <li class="list-group-item"></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Meat & Vegetables</h2>
+          <p>Free style, you can put any kind of Vegetables or meat that you like but below is how authentic tom kha has in Thailand.</p>
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item">✨Mushroom </li>
+          <li class="list-group-item">✨Onion (Preferred sweet onion) </li>
+          <li class="list-group-item">✨Thai fresh green chilli</li>
+          <li class="list-group-item">✨Tomato </li>
+          <li class="list-group-item">✨Cirantro</li>
+          <li class="list-group-item">✨Chicken</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+      </br>
+  <h2>How to VDO (to be updated later)</h2>
+      <div class="container-fluid">
+        <video width="400" controls>
+          <source src="mov_bbb.mp4" type="video/mp4">
+          <source src="mov_bbb.ogg" type="video/ogg">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+    </div> <!-- /container -->
+    <hr>
+    
+<div class="container-fluid">
+  <h2>End Product look like this! Yummy!</h2>
+      <div class="row">
+       <div class="col-md-4">
+         <div class="img-thumbnail">
+           <a href="/images/tomKhaIngredients/pic1.jpg">
+             <img src="/images/tomKhaIngredients/pic1.jpg" alt="pic1" style="width:100%">
+           </a>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="img-thumbnail">
+           <a href="/images/tomKhaIngredients/pic2.jpg">
+             <img src="/images/tomKhaIngredients/pic2.jpg" alt="pic2" style="width:100%">
+
+           </a>
+         </div>
+       </div>
+       <div class="col-md-4">
+         <div class="img-thumbnail">
+           <a href="/images/tomKhaIngredients/pic3.jpg">
+             <img src="/images/tomKhaIngredients/pic3.jpg" alt="pic3" style="width:100%">
+
+           </a>
+         </div>
+       </div>
+     </div>
+
+ </div>
+
+
+</main>
+<script>
+function printFunction() {
+  window.print();
+}
+</script>
+<%- include("partials/footer"); -%>

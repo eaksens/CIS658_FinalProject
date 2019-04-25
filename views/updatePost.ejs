@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+<div class="container-fluid">
+
+  <h2 style="text-align:left;">Update Blog</h2>
+  <form style="text-align:left;" class="" action="/posts/update/<%=id%> " method="post">
+    <div class="form-group">
+      <h3>Title</h3>
+    <input class="form-control" type="text" name="postTitle" value="<%=title%>">
+    </div>
+    <div class="form-group">
+      <h3>Content</h3>
+      <textarea class="form-control" name="postContent" cols="40" rows="5"><%=content%></textarea>
+    </div>
+    <!--<input type="text" name="_id" value="<%=id %>">-->
+    <button type="submit" class="btn btn-info" name="update">Update Post</button>
+    <!--<button type="reset" name="cancel" class="btn btn-danger">Delete Post</button>-->
+  </form>
+</div>
+
+<%- include("partials/footer"); -%>

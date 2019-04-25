@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+<div class="container-fluid">
+
+  <h1 style="text-align:left;"><%=title%></h1>
+  <p style="text-align:left;"><%=content%></p>
+  <div style="text-align:right;">
+  <a style="font-size: 14px; margin:0;" class="btn btn-info" href="/posts/update/<%=id%>">Update Post</a>
+  <a style="font-size: 14px; margin:0;" class="btn btn-danger" href="/posts/delete/<%=id%>">Delete Post</a>
+  </div>
+
+</div>
+<%- include("partials/footer"); -%>

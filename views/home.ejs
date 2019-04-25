@@ -1,0 +1,91 @@
+<%- include("partials/header"); -%>
+<body>
+  <!--title section-->
+  <section id="title">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6" style="text-align:left">
+          <h1>Welcome to Mai_Thai Kitchen</h1>
+          <a href="/signUp" class="btn btn-outline-dark btn-lg subscribe-btn"><i class="fas fa-bell"></i> Subscribe!</a>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/title-img.PNG" alt="title-image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4 col-md-12 col-sm-12">
+          <i class="feature-icon fas fa-check-circle fa-4x"></i>
+          <h3>Super Duper Easy to follow recipe</h3>
+          <p class="feature-content">So easy to follow all recipe in this app, even you know nothing about Thai food. I promise it's NOT hard!</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12 col-sm-12">
+          <i class="feature-icon fas fa-mortar-pestle fa-4x"></i>
+          <h3>Variety</h3>
+          <p class="features-content">Offer Variety of recipe under the "Fusion Cuisine" section.</p>
+        </div>
+        <div class="feature-box col-lg-4 col-md-12 col-sm-12">
+          <i class="feature-icon fab fa-hotjar fa-4x"></i>
+          <h3>Guaranteed to be Spicy</h3>
+          <p class="feature-content">Tasty only when it is spicy!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--This section is brief pictures/comments of all foods for all recipe-->
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Cooking is Easy! Create your own little Thai cuisine art in your own personal kitchen at home!</h2>
+          <img class="testimonial-image" src="images/carousel-img/makingFood.PNG" alt="makingFood-img">
+          <em>Making Papaya Salad</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Authentic Thai Sample: Authentic Thai aroma of Galangal root with a hint of Lemongrass and Lime leaves!</h2>
+          <img class="testimonial-image" src="images/carousel-img/tomkha.PNG" alt="tomKha-profile">
+          <em>Tom Kha Chicken Tasty</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Fusion Cuisine Sample: Simple Chinese stir-fry with a hint of Fish Sauce(Thai)!</h2>
+          <img class="testimonial-image" src="images/carousel-img/beefStirFry.PNG" alt="Beef-Stir-Fry">
+          <em>Beef Stir-Fry</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Mai_Thai Special Sample: Survive broken college life with most healthy -est -ish instant noodle</h2>
+          <img class="testimonial-image" src="images/carousel-img/kNoodle.jpg" alt="korean-instant-noodle-soup">
+          <em>Korean Instant Noodle</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <section id="press">
+
+    <img class="press-logo" src="images/logo/squid.PNG" alt="fishsauce-logo">
+    <img class="press-logo" src="images/logo/megachef.PNG" alt="fishsauce-logo">
+    <img class="press-logo" src="images/logo/maesri.PNG" alt="maesri-logo">
+    <img class="press-logo" src="images/logo/chaokoh.PNG" alt="chaoKoh-logo">
+
+
+    </section>
+
+<%- include("partials/footer"); -%>
