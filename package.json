@@ -25,7 +25,6 @@
   },
   "description": "Mai_Thai Kitchen Blog Application",
   "devDependencies": {
-    "jasmine-core": "file:jasmine",
     "mocha": "^6.1.2"
   }
 }
